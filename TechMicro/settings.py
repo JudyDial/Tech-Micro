@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+
 from pathlib import Path
 import os
 
@@ -77,8 +78,12 @@ WSGI_APPLICATION = 'TechMicro.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'TechMicro',
+        'USER': 'root',
+        'PASSWORD': 'benjamin8393',
+        'HOST': 'localhost',  # or the address of your MySQL server
+        'PORT': '3306',       # default MySQL port is 3306
     }
 }
 
