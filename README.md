@@ -59,6 +59,10 @@ Tech-Micro/
 6. **Access the site:**
    Open your browser and go to `http://127.0.0.1:8000/`
 
+## 📸 Screenshots
+![techMicro](https://github.com/user-attachments/assets/a92cae97-cb2d-404d-9b17-100a41b769da)
+
+
 ## Project Usage
 - Place your static files in `website/static/`
 - Place your HTML templates in `website/templates/`
